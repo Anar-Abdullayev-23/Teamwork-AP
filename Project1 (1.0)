@@ -1,1 +1,22 @@
-31
+# Proje: Kişiselleştirilmiş Selamlama ve Renk Yorumu
+
+## Zorluk Seviyesi: 1.5 / 10
+
+## Proje Fikri ve Amacı
+
+Bu proje, kullanıcıdan **ismini** ve **en sevdiği rengi** alarak kişiselleştirilmiş bir selamlama mesajı oluşturmayı ve seçilen renk hakkında basit bir yorum yapmayı hedefler. Python'daki temel girdi alma (`input()`) ve çıktı verme (`print()`) fonksiyonlarını ve değişken kullanımını pekiştirmek için tasarlanmıştır.
+
+## Odaklanılacak Konular/Beceriler
+
+* **`input()`:** Kullanıcıdan metin (isim, renk) almak.
+* **`print()`:** Ekrana metin ve değişken içeriği yazdırmak.
+* **Değişkenler:** Kullanıcıdan alınan bilgileri (isim, renk) saklamak.
+* **String Birleştirme:** Metinleri ve değişkenleri birleştirerek anlamlı çıktılar oluşturmak (f-string veya `+` operatörü ile).
+
+## Örnek İş Akışı
+
+1.  Program kullanıcıya adını sorar.
+2.  Kullanıcı adını girer.
+3.  Program kullanıcıya en sevdiği rengi sorar.
+4.  Kullanıcı rengi girer.
+5.  Program, hem ismi hem de rengi kullanarak kişiselleştirilmiş bir mesaj yazdırır. Örnek: "Merhaba [Girilen İsim]! En sevdiğin renk olan [Girilen Renk] gerçekten canlı bir seçim!"
